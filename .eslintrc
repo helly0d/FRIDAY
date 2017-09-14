@@ -1,0 +1,123 @@
+{
+  "plugins": [
+    "react"
+  ],
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaFeatures": {"jsx": true},
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "worker": true,
+    "amd": false,
+    "mocha": true,
+    "es6": true
+  },
+  "globals": {
+    "figshare": true
+  },
+  "rules": {
+    "quotes": [2, "double", {"allowTemplateLiterals": true}],
+    "no-with": 2,
+    "radix": 2,
+    "no-debugger": 2,
+    "no-irregular-whitespace": 1,
+    "no-unreachable": 2,
+    "no-undef": 2,
+    "no-shadow": 0,
+    "no-unused-vars": [2, {"varsIgnorePattern": "React"}],
+    "no-unused-expressions": 2,
+    "no-use-before-define": 2,
+    "no-constant-condition": 2,
+    "no-dupe-args": 2,
+    "no-dupe-keys": 2,
+    "no-duplicate-case": 2,
+    "no-empty": 2,
+    "semi": 2,
+    "no-extra-semi": 2,
+    "no-func-assign": 2,
+    "no-invalid-regexp": 2,
+    "no-obj-calls": 2,
+    "no-unexpected-multiline": 2,
+    "use-isnan": 2,
+    "valid-typeof": 2,
+    "no-useless-call": 2,
+    "no-caller": 2,
+    "no-extra-bind": 2,
+    "no-implied-eval": 2,
+    "no-multi-spaces": 2,
+    "no-redeclare": 2,
+    "wrap-iife": [2, "outside"],
+    "one-var": [2, "never"],
+    "spaced-comment": [2, "always"],
+    "arrow-parens": [2, "always"],
+    "arrow-spacing": 2,
+    "consistent-return": 2,
+    "no-else-return": 2,
+    "constructor-super": 2,
+    "no-const-assign": 2,
+    "no-dupe-class-members": 2,
+    "no-this-before-super": 2,
+    "object-shorthand": 2,
+    "prefer-template": 2,
+    "max-len": [2, 120, 2],
+    "max-nested-callbacks": [2, 5],
+    "max-depth": [2, 5],
+    "complexity": [2, 10],
+    "camelcase": 2,
+    "comma-spacing": [2, {"before": false, "after": true}],
+    "key-spacing": [2, {"beforeColon": false, "afterColon": true}],
+    "comma-dangle": 2,
+    "curly": 2,
+    "no-var": 2,
+    "array-bracket-spacing": [
+      2,
+      "never"
+    ],
+    "brace-style": [
+      2,
+      "1tbs",
+      {
+        "allowSingleLine": false
+      }
+    ],
+    "consistent-this": [
+      1,
+      "self"
+    ],
+    "indent": [
+      2,
+      2,
+      {"SwitchCase": 1}
+    ],
+    "no-multiple-empty-lines": [
+      1,
+      {
+        "max": 2
+      }
+    ],
+    "no-trailing-spaces": 2,
+    "eol-last": 2,
+    "no-underscore-dangle": 0,
+    "keyword-spacing": 2,
+    "space-before-blocks": [
+      2,
+      "always"
+    ],
+    "space-in-parens": [
+      2,
+      "never"
+    ],
+    "space-infix-ops": 2,
+    "space-before-function-paren": [
+      2,
+      "never"
+    ],
+    "react/jsx-uses-vars": "error",
+    "react/jsx-indent": ["error", 2],
+    "react/jsx-space-before-closing": ["error", "always"],
+    "react/prop-types": "error",
+    "react/jsx-no-duplicate-props": 2
+  }
+}
